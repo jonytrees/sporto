@@ -1,0 +1,255 @@
+//====================global header
+
+// Стили для модалки "Спасибо"
+
+.si-success-modal{
+  width: 742px;
+  height: 626px;
+  display: block;
+  position: relative;
+  background-color: transparent;
+  border: 1px solid transparent;
+
+  &:after{
+    content: '';
+    width: 742px;
+    height: 626px;
+    display: block;
+    background: url('../images/modal-fon.png') no-repeat !important;
+    background-position: 0 0 !important;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+  }
+  .modal-thanks-icon{
+    display: block;
+    width: 57px;
+    height: 57px;
+    margin: 0 auto 41px;
+  }
+
+  .si-success-modal-title{
+    width: 414px;
+    height: 69px;
+    margin: 0 auto;
+
+    @include mobile{
+      width: 100%;
+    }
+
+    .title{
+      width: 414px;
+      height: 69px;
+      display: block;
+      color: #fff !important;
+      font-family: "Exo";
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 1;
+      margin: 0 auto 38px;
+      @include mobile{
+        width: 100%;
+        margin-bottom: 75px;
+      }
+    }
+
+    .modal_sub_title{
+      color: #fff !important;
+      font-family: "Exo";
+      font-size: 34px;
+      font-weight: 400;
+      line-height: 1;
+    }
+  }
+}
+
+
+
+// Стили для модального окна
+.si-modal{
+  width: 742px;
+  height: 626px;
+  display: block;
+  position: relative;
+  border: 1px solid transparent;
+
+
+
+  &:after{
+    content: '';
+    width: 742px;
+    height: 626px;
+    display: block;
+    background: url('../images/modal-fon.png') no-repeat !important;
+    background-position: 0 0 !important;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+
+    @include mobile{
+      display: none;
+    }
+  }
+
+  @include mobile{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+    background-color: #007aff;
+    border-radius: 20px;
+  }
+
+
+.modal-form-title{
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+  .modal-container{
+    width: 364px;
+    display: block;
+    margin: 160px auto 0px;
+
+@include mobile{
+  margin-top: 60px;
+}
+    input{
+      width: 100%;
+      height: 70px;
+      border-radius: 35px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      color: #232323 !important;
+      font-family: "Exo";
+      font-size: 18px;
+      line-height: 70px;
+      font-weight: 300;
+      padding-left: 53px;
+      margin-bottom: 20px;
+      position: relative;
+
+    }
+
+    input[type="text"]{
+      width: 100%;
+      height: 70px;
+      position: relative;
+
+      &:after{
+        content: '01';
+        display: block;
+        width: 12px;
+        height: 9px;
+        color: #3b78ed;
+        font-family: "Exo";
+        font-size: 13px;
+        font-weight: 500;
+        top: 237px;
+        left: 202px;
+        position: absolute;
+
+        @include small-mobile{
+          left: 45px;
+        }
+      }
+
+      @include small-mobile{
+        background-position: 260px 25px;
+      }
+    }
+
+    input[type="tel"]{
+      background: url('../images/shape-input-orange.png') no-repeat;
+      background-position: 299px 25px;
+      width: 100%;
+      height: 70px;
+      position: relative;
+      text-decoration: underline;
+      background-color: #fff;
+
+      @include small-mobile{
+        background-position: 260px 25px;
+      }
+
+      &:after{
+        content: '02';
+        display: block;
+        width: 12px;
+        height: 9px;
+        color: #3b78ed;
+        font-family: "Exo";
+        font-size: 13px;
+        font-weight: 500;
+        top: 329px;
+        left: 202px;
+        position: absolute;
+
+        @include small-mobile{
+          left: 45px;
+        }
+      }
+    }
+
+    .btn{
+      width: 360px;
+      height: 80px;
+      border-radius: 40px;
+      background-image: linear-gradient(to top, #d7781b 0%, #e5aa2b 100%);
+      color: #fff !important;
+      font-family: "Exo";
+      font-size: 22px;
+      font-weight: 500;
+
+      @include small-mobile{
+        width: 100%;
+      }
+
+      &:hover{
+        background-image: linear-gradient(to top, #e5aa2b 0%, #d7781b 100%);
+      }
+    }
+
+    .form-agree-check{
+      font-family: "Exo";
+      color: #fff;
+    }
+  }
+
+  .margin-top{
+    margin-top: 100px;
+  }
+}
+
+.mobile-nav{
+@include general-transition;
+  @include abs-center;
+  .nav{
+    .menu-point{
+      font-size: 30px;
+      line-height: 1;
+      font-family: "Exo";
+      font-weight: 800;
+      color: #181818;
+      font-style: italic;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      display: block;
+
+      @include mobile{
+        font-size: 22px;
+      }
+
+      &:hover{
+        transition: 1s;
+        color: #0088CC;
+      }
+    }
+  }
+}
+

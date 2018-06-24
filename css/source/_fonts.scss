@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0Regular.eot');
+  src: url('../../fonts/Exo2_0Regular.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0Regular.woff2') format('woff2'),
+  url('../../fonts/Exo2_0Regular.woff') format('woff'),
+  url('../../fonts/Exo2_0Regular.ttf') format('truetype'),
+  url('../../fonts/Exo2_0Regular.svg#Exo2_0Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0Italic.eot');
+  src: url('../../fonts/Exo2_0Italic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0Italic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0Italic.woff') format('woff'),
+  url('../../fonts/Exo2_0Italic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0Italic.svg#Exo2_0Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0Thin.eot');
+  src: url('../../fonts/Exo2_0Thin.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0Thin.woff2') format('woff2'),
+  url('../../fonts/Exo2_0Thin.woff') format('woff'),
+  url('../../fonts/Exo2_0Thin.ttf') format('truetype'),
+  url('../../fonts/Exo2_0Thin.svg#Exo2_0Thin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0ThinItalic.eot');
+  src: url('../../fonts/Exo2_0ThinItalic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0ThinItalic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0ThinItalic.woff') format('woff'),
+  url('../../fonts/Exo2_0ThinItalic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0ThinItalic.svg#Exo2_0ThinItalic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0ExtraLight.eot');
+  src: url('../../fonts/Exo2_0ExtraLight.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0ExtraLight.woff2') format('woff2'),
+  url('../../fonts/Exo2_0ExtraLight.woff') format('woff'),
+  url('../../fonts/Exo2_0ExtraLight.ttf') format('truetype'),
+  url('../../fonts/Exo2_0ExtraLight.svg#Exo2_0ExtraLight') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0ExtraLightItalic.eot');
+  src: url('../../fonts/Exo2_0ExtraLightItalic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0ExtraLightItalic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0ExtraLightItalic.woff') format('woff'),
+  url('../../fonts/Exo2_0ExtraLightItalic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0ExtraLightItalic.svg#Exo2_0ExtraLightItalic') format('svg');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0Light.eot');
+  src: url('../../fonts/Exo2_0Light.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0Light.woff2') format('woff2'),
+  url('../../fonts/Exo2_0Light.woff') format('woff'),
+  url('../../fonts/Exo2_0Light.ttf') format('truetype'),
+  url('../../fonts/Exo2_0Light.svg#Exo2_0Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0LightItalic.eot');
+  src: url('../../fonts/Exo2_0LightItalic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0LightItalic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0LightItalic.woff') format('woff'),
+  url('../../fonts/Exo2_0LightItalic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0LightItalic.svg#Exo2_0LightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0Medium.eot');
+  src: url('../../fonts/Exo2_0Medium.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0Medium.woff2') format('woff2'),
+  url('../../fonts/Exo2_0Medium.woff') format('woff'),
+  url('../../fonts/Exo2_0Medium.ttf') format('truetype'),
+  url('../../fonts/Exo2_0Medium.svg#Exo2_0Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0MediumItalic.eot');
+  src: url('../../fonts/Exo2_0MediumItalic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0MediumItalic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0MediumItalic.woff') format('woff'),
+  url('../../fonts/Exo2_0MediumItalic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0MediumItalic.svg#Exo2_0MediumItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0SemiBold.eot');
+  src: url('../../fonts/Exo2_0SemiBold.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0SemiBold.woff2') format('woff2'),
+  url('../../fonts/Exo2_0SemiBold.woff') format('woff'),
+  url('../../fonts/Exo2_0SemiBold.ttf') format('truetype'),
+  url('../../fonts/Exo2_0SemiBold.svg#Exo2_0SemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0SemiBoldItalic.eot');
+  src: url('../../fonts/Exo2_0SemiBoldItalic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0SemiBoldItalic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0SemiBoldItalic.woff') format('woff'),
+  url('../../fonts/Exo2_0SemiBoldItalic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0SemiBoldItalic.svg#Exo2_0SemiBoldItalic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0Bold.eot');
+  src: url('../../fonts/Exo2_0Bold.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0Bold.woff2') format('woff2'),
+  url('../../fonts/Exo2_0Bold.woff') format('woff'),
+  url('../../fonts/Exo2_0Bold.ttf') format('truetype'),
+  url('../../fonts/Exo2_0Bold.svg#Exo2_0Bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0BoldItalic.eot');
+  src: url('../../fonts/Exo2_0BoldItalic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0BoldItalic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0BoldItalic.woff') format('woff'),
+  url('../../fonts/Exo2_0BoldItalic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0BoldItalic.svg#Exo2_0BoldItalic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0ExtraBold.eot');
+  src: url('../../fonts/Exo2_0ExtraBold.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0ExtraBold.woff2') format('woff2'),
+  url('../../fonts/Exo2_0ExtraBold.woff') format('woff'),
+  url('../../fonts/Exo2_0ExtraBold.ttf') format('truetype'),
+  url('../../fonts/Exo2_0ExtraBold.svg#Exo2_0ExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0ExtraBoldItalic.eot');
+  src: url('../../fonts/Exo2_0ExtraBoldItalic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0ExtraBoldItalic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0ExtraBoldItalic.woff') format('woff'),
+  url('../../fonts/Exo2_0ExtraBoldItalic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0ExtraBoldItalic.svg#Exo2_0ExtraBoldItalic') format('svg');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0Black.eot');
+  src: url('../../fonts/Exo2_0Black.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0Black.woff2') format('woff2'),
+  url('../../fonts/Exo2_0Black.woff') format('woff'),
+  url('../../fonts/Exo2_0Black.ttf') format('truetype'),
+  url('../../fonts/Exo2_0Black.svg#Exo2_0Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Exo';
+  src: url('../../fonts/Exo2_0BlackItalic.eot');
+  src: url('../../fonts/Exo2_0BlackItalic.eot') format('embedded-opentype'),
+  url('../../fonts/Exo2_0BlackItalic.woff2') format('woff2'),
+  url('../../fonts/Exo2_0BlackItalic.woff') format('woff'),
+  url('../../fonts/Exo2_0BlackItalic.ttf') format('truetype'),
+  url('../../fonts/Exo2_0BlackItalic.svg#Exo2_0BlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+}
